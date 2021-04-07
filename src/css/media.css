@@ -1,0 +1,21 @@
+@media screen and (max-width: 1125px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    padding-top: 40px;
+  }
+  .card-container {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    padding-top: 40px;
+  }
+  .card-container {
+    width: 80%;
+  }
+}
